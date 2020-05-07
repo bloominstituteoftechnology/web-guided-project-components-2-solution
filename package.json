@@ -1,8 +1,8 @@
 {
-  "name": "components2",
+  "name": "web-guided-project-components-2-solution",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel src/index.html"
   },
   "license": "ISC",
   "devDependencies": {
@@ -10,5 +10,14 @@
   },
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "description": "## Running this project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/web-guided-project-components-2-solution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/web-guided-project-components-2-solution/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/web-guided-project-components-2-solution#readme"
 }

@@ -36,8 +36,8 @@ function dogCardMaker({ imageURL, breed }) {
 
 
 // TASK 3- Bring the Axios library into the project using one of two methods:
-//    * Put a script tag inside index.html
-//    * Install it with npm and import it into this file
+//    * Put another script tag inside index.html (traditional way)
+//    * Install it with npm and import it into this file (npm projects with bundling)
 
 
 // TASK 4- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
