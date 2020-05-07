@@ -1,3 +1,4 @@
+// npm imports at the top of the file!
 import axios from 'axios'
 
 const breeds = [
@@ -72,8 +73,8 @@ function dogCardMaker({ imageURL, breed }) {
 
 
 // 👉 TASK 3- Bring the Axios library into the project using one of two methods:
-//    * Put another script tag inside index.html (traditional way)
-//    * Install it with npm and import it into this file (npm projects with bundling)
+//    * Traditional way: put another script tag inside index.html (`https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js`)
+//    * Proyects with npm: install it with npm and import it into this file
 
 
 // 👉 TASK 4- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
@@ -108,3 +109,6 @@ document.querySelector('button').addEventListener('click', evt => {
   getDogs('mastiff', 3)
   getDogs('appenzeller', 3)
 })
+
+
+// 👉 TASK 7- Loop over the breeds array, fetching a dog at each iteration
