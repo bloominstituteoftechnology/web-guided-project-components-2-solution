@@ -80,6 +80,7 @@ function dogCardMaker({ imageURL, breed }) {
 //    * ON SUCCESS: use the data to create dogCards and append them to the entry point
 //    * ON FAILURE: log the error to the console
 //    * IN ANY CASE: log "done" to the console
+//    (instructor will demo fetching a random dog from `https://dog.ceo/api/breeds/image/random`)
 
 
 // 👉 TASK 5- Wrap the fetching operation inside a function `getDogs`
