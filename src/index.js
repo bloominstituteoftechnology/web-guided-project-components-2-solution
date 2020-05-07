@@ -1,12 +1,48 @@
 import axios from 'axios'
 
+const breeds = [
+  'affenpinscher',
+  'african',
+  'australian',
+  'mexicanhairless',
+  'cocker',
+  'yorkshire',
+]
 
-// TASK 1- Select the "entry point", the element
+// Declaration of a function that returns a promise.
+// It's not common that we would need to do this.
+function onlyLikeEvenNumbers(number) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (number % 2 === 0) {
+        resolve(`Good: ${number} is even`)
+      } else {
+        reject(`Bad: ${number} is odd`)
+      }
+    }, 1000)
+  })
+}
+
+// Usage of a function that returns a promise.
+// Very common to use utility functions that return promises:
+// axios.get('URL') // returns a promise
+onlyLikeEvenNumbers(5)
+  .then(success => {
+    console.log(success)
+  })
+  .catch(error => {
+    console.log(error)
+  })
+  .finally(() => {
+    console.log('regardless')
+  })
+
+// 👉 TASK 1- Select the "entry point", the element
 // inside of which we'll inject our dog cards 
 const entryPoint = document.querySelector('.entry')
 
 
-// TASK 2- Build out a `dogCardMaker` component
+// 👉 TASK 2- Build out a `dogCardMaker` component
 // that takes an object { imageURL, breed }
 // and creates a dog card like the following:
 
@@ -35,18 +71,18 @@ function dogCardMaker({ imageURL, breed }) {
 }
 
 
-// TASK 3- Bring the Axios library into the project using one of two methods:
+// 👉 TASK 3- Bring the Axios library into the project using one of two methods:
 //    * Put another script tag inside index.html (traditional way)
 //    * Install it with npm and import it into this file (npm projects with bundling)
 
 
-// TASK 4- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
+// 👉 TASK 4- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
 //    * ON SUCCESS: use the data to create dogCards and append them to the entry point
 //    * ON FAILURE: log the error to the console
 //    * IN ANY CASE: log "done" to the console
 
 
-// TASK 5- Wrap the fetching operation inside a function `getDogs`
+// 👉 TASK 5- Wrap the fetching operation inside a function `getDogs`
 // that takes a breed and a count (of dogs)
 function getDogs(breed, count) {
   axios.get(`https://dog.ceo/api/breed/${breed}/images/random/${count}`)
@@ -65,7 +101,7 @@ function getDogs(breed, count) {
 }
 
 
-// TASK 6- Put a button in index.html to 'get dogs' and add a click
+// 👉 TASK 6- Put a button in index.html to 'get dogs' and add a click
 // event listener that executes `getDogs`
 document.querySelector('button').addEventListener('click', evt => {
   getDogs('mastiff', 3)
