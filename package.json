@@ -11,7 +11,6 @@
   "dependencies": {
     "axios": "^0.19.2"
   },
-  "description": "## Running this project",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/web-guided-project-components-2-solution.git"
