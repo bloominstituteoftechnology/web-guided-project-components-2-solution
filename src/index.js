@@ -7,7 +7,6 @@ const breeds = [
   'australian',
   'mexicanhairless',
   'cocker',
-  'yorkshire',
 ]
 
 // Declaration of a function that returns a promise.
@@ -43,9 +42,9 @@ onlyLikeEvenNumbers(5)
 const entryPoint = document.querySelector('.entry')
 
 
-// 👉 TASK 2- Build out a `dogCardMaker` component
-// that takes an object { imageURL, breed }
-// and creates a dog card like the following:
+// 👉 TASK 2- Complete the `dogCardMaker` component,
+// which takes an object { imageURL, breed } as its argument
+// and creates the following elements:
 
 // <div class="dog-card">
 //   <img src={imageURL} class="dog-image">
