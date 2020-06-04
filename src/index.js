@@ -2,8 +2,8 @@
 import axios from 'axios'
 
 const breeds = [
+  'mastiff',
   'affenpinscher',
-  'african',
   'australian',
   'mexicanhairless',
   'cocker',
