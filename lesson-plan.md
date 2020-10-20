@@ -20,8 +20,8 @@
 * Installing Axios with NPM.
 * Using Axios to GET data from an endpoint.
 * Using template literals to add parameters to a URL.
-* Promises vs callbacks (callback hell and problems handling errors).
-* Handling promises with .then and .catch.
+* Async code: promises vs callbacks (callback hell and problems handling errors).
+* Scheduling success and failure handlers with .then and .catch.
 * Checking the .then and the .catch with log statements and breakpoints.
 * The importance of inspecting the data put together by Axios.
 * The importance of good variable/parameter names.
