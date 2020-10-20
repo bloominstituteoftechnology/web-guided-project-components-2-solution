@@ -48,6 +48,7 @@
 * [Axios](https://github.com/axios/axios)
 * [Postman](https://www.postman.com/downloads/)
 * [Promises](http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell/)
+* [Visualizing the Event Loop](https://bit.ly/1Btu0Iy)
 
 ## 6- Following Along and Catching Up
 
