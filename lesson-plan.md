@@ -36,6 +36,7 @@
 
 * Use `designs/design.png` to show students what they're building.
 * Starting at `👉 TASK 2` inside `index.js` follow the instructions in the comments.
+* Play with console logs so students understand the order of events in the code.
 * Make sure to demo debugging of the work in progress, using log statements or breakpoints.
 * Make bugs on purpose and have students guide you through the debugging process.
 * Demo the VSCode shortcuts and tricks you like that help you work more effectively.
