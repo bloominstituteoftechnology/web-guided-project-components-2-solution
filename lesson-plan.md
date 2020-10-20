@@ -12,6 +12,7 @@
 * Studying an endpoint with a command-line client.
 * Studying an endpoint with Postman/Insomnia.
 * Studying an endpoint with Chrome and the Network Tab.
+* The HTTP request, response, and the response body.
 * The native fetch (optional).
 * Review of components.
 * Importing modules installed in the node_modules folder.
