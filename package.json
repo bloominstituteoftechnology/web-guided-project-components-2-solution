@@ -6,7 +6,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.10.0",
+    "eslint": "^7.11.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
@@ -15,9 +15,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LambdaSchool/web-guided-project-components-2-solution.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/web-guided-project-components-2-solution/issues"
-  },
-  "homepage": "https://github.com/LambdaSchool/web-guided-project-components-2-solution#readme"
+  }
 }

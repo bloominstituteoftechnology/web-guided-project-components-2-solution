@@ -13,10 +13,11 @@ import { breeds } from './breeds'
 //     https://lambda-times-api.herokuapp.com/breeds
 //     https://dog.ceo/api/breeds/image/random
 
-//    * With HTTPie (command-line tool)
-//    * With Postman (tool with GUI)
-//    * With Chrome
-//    * With JS using the native fetch
+//    * With HTTPie (command-line HTTP Client)
+//    * With Postman (HTTP Client with GUI)
+//    * With Chrome and the Network Tab
+//    * With JS using the native fetch [STRETCH]
+
 
 
 // 👉 TASK 2- Select the "entry point", the element
@@ -50,7 +51,7 @@ function dogCardMaker({ imageURL, breed }) {
 
 // 👉 TASK 4- Bring the Axios library into the project using one of two methods:
 //    * Traditional way: put another script tag inside index.html (`https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js`)
-//    * Proyects with npm: install it with npm and import it into this file
+//    * Proyects with npm: install it with npm and import it at the top of this module
 
 
 // 👉 TASK 5- Fetch dogs from `https://dog.ceo/api/breed/{breed}/images/random/{number}`
