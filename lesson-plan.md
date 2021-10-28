@@ -45,7 +45,7 @@
 ## 5- Links of Interest
 
 * [HTTPie](https://httpie.org/run)
-* [Axios](https://github.com/axios/axios)
+* [Axios](https://axios-http.com/docs/intro)
 * [Postman](https://www.postman.com/downloads/)
 * [Promises](http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell/)
 * [Visualizing the Event Loop](https://bit.ly/1Btu0Iy)
