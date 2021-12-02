@@ -1,13 +1,7 @@
-// 👉 TASK 1- Test out the following endpoints:
+// 👉 TASK 1- Test out the following endpoint:
 
-//  https://lambda-times-api.herokuapp.com/friends
-//  https://lambda-times-api.herokuapp.com/friends/1
-//  https://lambda-times-api.herokuapp.com/quotes
-//  https://lambda-times-api.herokuapp.com/cards
-//  https://lambda-times-api.herokuapp.com/breeds
 //  https://dog.ceo/api/breeds/image/random
 
-//  * With HTTPie (command-line HTTP Client)
 //  * With Postman (HTTP Client with GUI)
 //  * With Chrome and the Network Tab
 //  * With JS using the native fetch [STRETCH]
