@@ -47,6 +47,10 @@ function dogCardMaker({ imageURL, breed }) {
 //    * ON FAILURE: log the error to the console
 //    * IN ANY CASE: log "done" to the console
 
+// Make SURE at some point to go over passing a parameter into a function and using that 
+// parameter inside of querySelector. At this point learners haven't seen that
+// and it was formerly a very large pain point in the sprint challenge.
+
 
 // 👉 (OPTIONAL) TASK 6- Wrap the fetching operation inside a function `getDogs`
 // that takes a breed and a count (of dogs)
